@@ -1,0 +1,32 @@
+{
+  "name": "secure-weighted-sample",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "nanoassert": "^2.0.0",
+    "secure-random-double": "^1.0.2",
+    "secure-random-uniform": "^4.0.0"
+  },
+  "devDependencies": {
+    "standard": "^14.3.4"
+  },
+  "scripts": {
+    "pretest": "standard",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilbayes/secure-weighted-sample.git"
+  },
+  "keywords": [],
+  "author": "Emil Bay <github@tixz.dk>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilbayes/secure-weighted-sample/issues"
+  },
+  "homepage": "https://github.com/emilbayes/secure-weighted-sample#readme"
+}
